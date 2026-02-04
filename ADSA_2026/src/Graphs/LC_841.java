@@ -1,6 +1,7 @@
 package Graphs;
 
 public class LC_841 {
+    //DFS
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         int n = rooms .size();
         boolean[] visited = new boolean[n];
